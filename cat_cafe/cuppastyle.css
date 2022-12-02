@@ -88,7 +88,7 @@ input {
 }
 .formbox {
   width: 500px;
-  height: 800px;
+  height: 820px;
   border: black 1px;
   background-color: white;
   float: center;
@@ -107,14 +107,6 @@ input {
   align-self: center;
   justify-content: center;
   overflow: hidden;
-}
-.menublockleft {
-  float: left;
-  margin-left: 200px;
-}
-.menublockright {
-  float: right;
-  margin-right: 200px;
 }
 .infoinput {
   border: 1px solid black;
