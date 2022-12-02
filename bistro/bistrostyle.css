@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+    body {
+      font-family: Georgia, serif;
+	font-size: 100%;
+	line-height: 175%;
+	margin: 0 15% 0;
+	background: #faf2e4 url(images/bullseye.png) center 100px fixed;
+     }
+     header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: url(images/orangedot.png) center top repeat-x;
+  background:
+    url(images/orangedot.png) left top repeat-y,
+    url(images/orangedot.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat;
+  background-color: rgba(255,255,255,.5);
+}
+    h1 {
+  font: bold 3em Georgia, serif;
+  text-shadow: .05em .05em .1em lightslategray;
+     text-align: center;
+     font-family: serif;
+     font-weight: normal;
+     text-transform: uppercase;
+     border-bottom: 1px solid #57b1dc;
+     margin-top: 30px;
+    }
+    h2 {
+     color: #d1633c;
+     font-size: 1em;
+     text-transform: uppercase;
+     letter-spacing: .5em;
+     text-align: center;
+     font-family: Georgia, serif;
+    }
+    h3 {
+     color: black;
+     font-family: "Lora";
+     font-size: 1em;
+     text-transform: uppercase;
+     text-align: center;
+    }
+    p {
+      text-align: center;
+      font-family: "Lora";
+    }
+    footer {
+ border-top: 1px solid #57b1dc;
+ text-align: center;
+ padding-top: 1em;
+}
+footer img {
+ width: 40px;
+ height: 40px;
+ margin-left: .5em;
+ margin-right: .5em;
+}
+a:link {
+  text-decoration: underline;
+  color: #75CDF8
+}
+a:visited {
+  color: #7D97A4
+}
+a:focus, a:hover {
+  color: #75CDF8;
+  background-color: #F2FBFD
+}
+a:active {
+  color: #CD582C;
+  background-color: #F2FBFD
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
