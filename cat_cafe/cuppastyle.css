@@ -1,0 +1,205 @@
+body {
+  background-image: url('catbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  position: absolute;
+  margin-bottom: -700px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+.indexfooter {
+  position: absolute;
+  margin-bottom: -450px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.topnav {
+  background-color: #FFFFFF;
+  opacity: 0.7;
+  overflow: hidden;
+    justify-content: center;
+    margin: center;
+    height: 80px;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: center;
+  margin: center;
+}
+.topnav a:hover {
+    justify-content: center;
+    text-decoration: underline;
+    background-color: #FFFFFF;
+}
+.topnav a:active {
+  background-color: #CCBDB0;
+    justify-content: center;
+}
+a:link {
+  text-align: center;
+  color: #CC906A;
+  font-family: "Monoton";
+  font-size: 20px;
+  float: left;
+}
+.content {
+  width: 500px;
+  padding: 10px;
+  margin: 0;
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+  text-align: center;
+}
+.indexcontent {
+  width: 500px;
+  padding: 10px;
+  margin: 0;
+  background-color: black;
+  opacity: 0.8;
+  height: 1000px;
+  text-align: center;
+}
+input {
+  margin-top: 40px;
+  width: 50px;
+  justify-content: center;
+}
+.formbox {
+  width: 500px;
+  height: 800px;
+  border: black 1px;
+  background-color: white;
+  float: center;
+  justify-content: center;
+  margin-left: 250px;
+  }
+.menubox {
+  float: center;
+  width: 1000px;
+  padding: 10px;
+  margin-left: 450px;
+  background-color: black;
+  opacity: 0.9;
+  height: 100%;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.menublockleft {
+  float: left;
+  margin-left: 200px;
+}
+.menublockright {
+  float: right;
+  margin-right: 200px;
+}
+.infoinput {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 300px;
+  height: 40px;
+}
+.commentinput {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 300px;
+  height: 100px;
+}
+.ticketinput {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 300px;
+  height: 30px;
+}
+.dateinput {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 150px;
+  height: 40px;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+h1 {
+  color: #CC906A;
+  font-family: "Monoton";
+  letter-spacing: 3px;
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: underline 1px
+}
+h2 {
+  font-family: "Monoton";
+  font-style: italic;
+  color: #EACFA7;
+  font-size: 25px;
+}
+h3 {
+  color: #CCBDB0;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+h4 {
+  color: black;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+h5 {
+  color: black;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+h6 {
+  color: black;
+  font-family: "Monoton";
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
