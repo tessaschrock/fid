@@ -1,0 +1,92 @@
+  body {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: #AFA6B2;
+    margin: 0 10%;
+    font-family: "Bitter";
+  }
+  h1 {
+   text-align: center;
+   font-family: "Bitter";
+   font-weight: bold;
+   text-transform: uppercase;
+   color: white;
+   border-bottom: 2px solid wite;
+   padding: 1px;
+   margin-top: 30px;
+  background-color: #292249;
+  }
+  h2 {
+   color: white;
+   font-family: "Bitter";
+   font-size: 2em;
+  }
+  h3 {
+   color: white;
+   font-family: "Bitter";
+   font-size: 1.2em;
+  }
+  h5 {
+    color: white;
+   font-family: "Bitter";
+    font-size: 1em;
+    font-weight: normal;
+  background-color: #442C80;
+  padding: 5px;
+  }
+  ul {
+    text-align: left;
+    list-style-position: inside;
+  }
+  .boxlist {
+    list-style-position: inside;
+    text-align: left
+  }
+  .boxlist2 {
+    list-style-position: inside;
+    text-align: center
+  }
+  .freelist {
+    list-style-position: inside;
+    text-align: left
+  }
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: #442C80;
+  background-color: #442C80;
+  text-decoration: underline;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.freemyboi {
+  position: absolute;
+  background-color: transparent;
+  padding-left: 320px;
+  text-align: left;
+  color: black;
+}
+.parent {
+  background-color: #292249;
+  width: 300px;
+  height: 300px;
+  padding: 1px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.child {
+  background-color: #442C80;
+  width: 300px;
+  height: 50px;
+  color: white;
+  position: absolute;
+  text-align: center;
+}
